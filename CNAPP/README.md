@@ -71,16 +71,28 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Purpose**: Focuses on managing access and entitlements specifically for cloud workloads, ensuring that only authorized entities can access or modify workloads.
    - **Use Cases**: Privileged access management for workloads, enforcement of security policies, and workload isolation.
 
+It seems that there are no widely recognized or distinct sources specifically for CWEM (Cloud Workload Entitlement Management) as this term overlaps heavily with CIEM (Cloud Infrastructure Entitlements Management). CIEM solutions handle much of the access control and entitlement issues for cloud workloads and infrastructures.
+
 ### **CWPP (Cloud Workload Protection Platform)**
    - **Purpose**: Protects cloud workloads such as virtual machines (VMs), containers, and serverless functions.
    - **Limitations**: Does not encompass the full application lifecycle, compliance, or broader security needs such as posture management.
    - **Integration with CNAPP**: CNAPP (Cloud-Native Application Protection Platform) integrates CWPP but extends its functionality to cover application lifecycle management, compliance, and posture management.
    - **Key Use Cases**: Workload-centric protection, runtime security, vulnerability management, and threat detection.
 
+1. [Wikipedia - Cloud Workload Protection Platform](https://en.wikipedia.org/wiki/Cloud_workload_protection_platform): An overview of CWPP, explaining how it secures cloud-based workloads through software agents that monitor and report on potential security threats.
+2. [Microsoft Security - What is CWPP?](https://www.microsoft.com/en-us/security/blog/2021/04/12/what-is-a-cloud-workload-protection-platform-cwpp/): Provides an in-depth look into CWPP capabilities, including vulnerability management, network segmentation, and intrusion prevention for workloads such as containers, VMs, and serverless functions.
+3. [CrowdStrike - What is a CWPP?](https://www.crowdstrike.com/cybersecurity-101/cloud-workload-protection-platform-cwpp/): Explains CWPP's role in improving visibility and detecting security threats in cloud environments while integrating security controls across multiple cloud providers.
+4. [Cloudflare - What is a Cloud Workload Protection Platform (CWPP)?](https://www.cloudflare.com/learning/security/cloud-workload-protection-platform/): Describes how CWPP secures multi-cloud and hybrid environments, protecting against vulnerabilities through microsegmentation, malware scanning, and runtime protection.
+
 ### **DSPM (Data Security Posture Management)**
    - **Purpose**: Manages and monitors the security posture of data across cloud environments, ensuring data is handled securely and complies with regulations.
    - **Key Use Cases**: Data discovery, classification, encryption, ensuring compliance with GDPR, CCPA, or other regulations.
    - **Relation to CNAPP**: CNAPP may integrate DSPM capabilities to monitor and protect sensitive data as part of a holistic cloud-native security strategy.
+
+1. [Cloud Security Alliance - Guide to Data Security Posture Management](https://cloudsecurityalliance.org/artifacts/guide-to-data-security-posture-management/): Provides an overview of DSPM, explaining how it helps secure sensitive data across cloud environments by identifying misconfigurations and controlling data access.
+2. [Cyberhaven - Gartner's Latest DSPM Report](https://www.cyberhaven.com/blog/dspm-gartner-report): Discusses the importance of DSPM in identifying shadow data, managing multi-cloud environments, and ensuring compliance with data protection regulations like GDPR and HIPAA.
+3. [IBM - What is DSPM?](https://www.ibm.com/security/data-security): Explains how DSPM works to continuously monitor data security across cloud and on-premises environments, helping to remediate vulnerabilities and manage access to sensitive data.
+4. [Palo Alto Networks - What is DSPM?](https://www.paloaltonetworks.com/resources/articles/what-is-dspm): Describes DSPM’s role in data discovery, compliance support, and vulnerability detection across multi-cloud environments, with a focus on minimizing data breach risks.
 
 ### **EDR (Endpoint Detection and Response)**
    - **Purpose**: Monitors endpoints such as laptops, servers, and workstations for suspicious activities, providing real-time detection and response.
@@ -88,15 +100,29 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Integration with CNAPP**: CNAPPs interface with EDR tools to ensure comprehensive threat detection across both endpoints and cloud-native applications.
    - **Key Use Cases**: Incident response, forensics, and endpoint threat detection.
 
+1. [Wikipedia - Endpoint Detection and Response](https://en.wikipedia.org/wiki/Endpoint_detection_and_response): This page covers EDR's history, key concepts, and use cases, focusing on its role in detecting threats at the endpoint level.
+2. [Microsoft - What Is EDR?](https://www.microsoft.com/security/blog/2021/09/08/what-is-edr-endpoint-detection-and-response/): A detailed breakdown of how EDR works, including continuous monitoring of endpoints, behavioral analytics, and real-time responses to threats.
+3. [CrowdStrike - What Is EDR?](https://www.crowdstrike.com/cybersecurity-101/endpoint-detection-and-response-edr/): Explains EDR’s key functions, such as real-time and historical visibility of endpoint activities and the integration of threat intelligence for faster detection and response.
+4. [IBM - What Is Endpoint Detection and Response?](https://www.ibm.com/security/data-security/endpoint-detection-and-response): Offers an in-depth look into EDR’s capabilities, including automated threat response, data collection, and integration with other security technologies like SIEM and SOAR.
+
 ### IAM (Identity and Access Management)
    - **Purpose:** Manages identities and their access to resources within an organization or cloud environment.  
    - **Key Use Cases:** Authentication, authorization, enforcing least privilege, multi-factor authentication (MFA).  
    - **Relation to CNAPP:** CNAPP often integrates with IAM to ensure access controls are enforced across cloud-native applications.
 
+. [Wikipedia - Identity and Access Management](https://en.wikipedia.org/wiki/Identity_management): A comprehensive overview of identity management, including processes, services, and technologies involved in managing access to digital resources.
+2. [IBM - What is Identity and Access Management?](https://www.ibm.com/security/digital-assets/iam): Covers IAM fundamentals, including least privilege principles, authentication methods, and identity governance.
+3. [Microsoft Security - What is IAM?](https://www.microsoft.com/security/blog/2021/09/16/what-is-identity-and-access-management-iam/): Explains how IAM systems verify user identities and manage access privileges, with details on MFA and role-based access control.
+
 ### MDR (Managed Detection and Response)
    - **Purpose:** Outsourced service that provides threat detection and response for organizations, often leveraging advanced analytics and expert support.  
    - **Key Use Cases:** Continuous monitoring, incident response, managed security operations.  
    - **Relation to CNAPP:** CNAPP can feed threat data to MDR providers to extend protection and incident response to cloud-native applications.
+
+1. [Wikipedia - Managed Detection and Response](https://en.wikipedia.org/wiki/Managed_detection_and_response): Offers an overview of MDR, detailing how it provides managed cybersecurity services, including continuous threat monitoring, detection, and response.
+2. [Microsoft Security - What is MDR?](https://www.microsoft.com/security/blog/2021/09/15/what-is-managed-detection-and-response-mdr/): Explains the benefits of MDR, such as enhanced security expertise, decreased IT burden, and proactive threat hunting across endpoints and cloud environments.
+3. [CrowdStrike - What is MDR?](https://www.crowdstrike.com/cybersecurity-101/managed-detection-and-response-mdr/): Discusses MDR’s core capabilities, including threat prioritization, hunting, investigation, and remediation, with a focus on combining human expertise with machine-driven analytics.
+4. [IBM - Managed Detection and Response](https://www.ibm.com/security/data-security/managed-detection-and-response): Describes MDR’s ability to integrate with technologies like EDR and SIEM to offer comprehensive security, as well as its role in minimizing alert fatigue and improving security posture.
 
 ### PIM/PAM (Privileged Identity Management / Privileged Access Management)
    - **Purpose:** Focuses on managing and controlling privileged access to critical resources.  
