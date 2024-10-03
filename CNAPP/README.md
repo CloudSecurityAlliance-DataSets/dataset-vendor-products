@@ -26,6 +26,12 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Key Use Cases**: Privilege management, enforcing least privilege, identifying excessive permissions, and reducing risk of insider threats in cloud environments.
    - **Relation to CNAPP**: CNAPP may incorporate or work alongside CIEM to ensure cloud-native security is aligned with user access controls and entitlements.
 
+### CMSP (Cloud Management and Security Platform)
+   - **Purpose:** Provides centralized management of security, compliance, and governance across cloud environments, often incorporating access controls, visibility, and automation.
+   - **Key Use Cases:** Cloud resource monitoring, access control management, compliance auditing, and risk mitigation in multi-cloud or hybrid environments.
+   - **Limitations:** Primarily focused on infrastructure and compliance, may not provide deep application-level or workload-specific security features.
+   - **Relation to CNAPP:** CNAPP focuses on securing cloud-native applications, while CMSP ensures broader security governance and compliance over the entire cloud environment.
+
 ### **CNSP (Cloud Native Security Platform)**
    - **Purpose**: An overarching term for platforms that provide security tailored to cloud-native applications, typically encompassing elements of CNAPP, CWPP, and CSPM.
    - **Use Cases**: Security and compliance for containerized applications, Kubernetes environments, and microservices architecture.
@@ -57,11 +63,42 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Integration with CNAPP**: CNAPPs interface with EDR tools to ensure comprehensive threat detection across both endpoints and cloud-native applications.
    - **Key Use Cases**: Incident response, forensics, and endpoint threat detection.
 
+### IAM (Identity and Access Management)
+   - **Purpose:** Manages identities and their access to resources within an organization or cloud environment.  
+   - **Key Use Cases:** Authentication, authorization, enforcing least privilege, multi-factor authentication (MFA).  
+   - **Relation to CNAPP:** CNAPP often integrates with IAM to ensure access controls are enforced across cloud-native applications.
+
+### MDR (Managed Detection and Response)
+   - **Purpose:** Outsourced service that provides threat detection and response for organizations, often leveraging advanced analytics and expert support.  
+   - **Key Use Cases:** Continuous monitoring, incident response, managed security operations.  
+   - **Relation to CNAPP:** CNAPP can feed threat data to MDR providers to extend protection and incident response to cloud-native applications.
+
+### PIM/PAM (Privileged Identity Management / Privileged Access Management)
+   - **Purpose:** Focuses on managing and controlling privileged access to critical resources.  
+   - **Key Use Cases:** Protecting against insider threats, enforcing least privilege access, managing elevated access to sensitive systems.  
+   - **Relation to CNAPP:** CNAPP may integrate PIM/PAM tools to manage privileged identities and access within cloud-native environments.
+
+### SASE (Secure Access Service Edge)
+   - **Purpose:** Converges network security services like SD-WAN and VPN with cloud-delivered security services like CASB, SWG, and ZTNA.  
+   - **Key Use Cases:** Secure remote access, zero trust network access, unified security for distributed environments.  
+   - **Relation to CNAPP:** SASE may complement CNAPP by securing connectivity to cloud-native applications in remote or distributed environments.
+
 ### **SIEM (Security Information and Event Management)**
    - **Purpose**: Aggregates and analyzes security events across an organization for threat detection, compliance reporting, and log management.
    - **Limitations**: Primarily focused on event logging and incident response, with less emphasis on cloud-native or application-specific security.
    - **Integration with CNAPP**: CNAPP can feed cloud-native data into SIEM platforms to provide richer context for cloud-specific threats.
    - **Key Use Cases**: Centralized threat monitoring, incident response, and compliance reporting.
+
+### SOAR (Security Orchestration, Automation, and Response)
+   - **Purpose:** SOAR platforms streamline and automate security operations by integrating multiple tools and workflows, enabling faster incident response and reducing manual effort.
+   - **Key Use Cases:** Automating repetitive tasks (e.g., alert triage), incident response, playbook execution, and security operations center (SOC) efficiency improvements.
+   - **Limitations:** May require significant setup and integration to work across diverse security tools; effectiveness depends on the quality of pre-built playbooks and automation rules.
+   - **Integration with CNAPP:** CNAPP can leverage SOAR's automation and orchestration capabilities to streamline incident response and ensure faster reaction times to cloud-native threats.
+
+### UEBA (User and Entity Behavior Analytics)
+   - **Purpose:** Uses machine learning and data analytics to detect abnormal behavior of users and entities (devices, applications).  
+   - **Key Use Cases:** Insider threat detection, anomalous activity monitoring, identifying compromised accounts.  
+   - **Relation to CNAPP:** CNAPP can use UEBA to identify threats in cloud-native environments by analyzing user and application behavior.
 
 ### **WAF (Web Application Firewall)**
    - **Purpose**: Protects web applications by filtering and monitoring HTTP/HTTPS traffic, blocking threats like SQL injections and cross-site scripting (XSS).
@@ -85,9 +122,6 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Integration with CNAPP**: CNAPP can integrate with Zero Trust policies by enforcing least privilege and continuous verification at every stage of a cloud-native application’s lifecycle.
    - **Key Use Cases**: Protecting sensitive data, securing hybrid cloud environments, defending against insider threats, enabling secure remote workforces.
    - **Related Technologies**: Multi-factor authentication (MFA), Identity and Access Management (IAM), Software-defined Perimeter (SDP), and encryption.
-
-
-
 
 ## CNAPP Vendors
 
