@@ -21,10 +21,20 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Integration with CNAPP**: CNAPPs focus on securing cloud-native apps, while CASB ensures security controls over the broader SaaS and cloud ecosystem.
    - **Key Use Cases**: Managing access, enforcing policies, securing data in transit between users and cloud services.
 
+1. [Wikipedia - Cloud Access Security Broker](https://en.wikipedia.org/wiki/Cloud_access_security_broker): Provides a detailed overview of CASB, its definition, types, and functions in cloud security.
+2. [Microsoft - What is a Cloud Access Security Broker (CASB)?](https://www.microsoft.com/security/blog/2020/07/01/what-is-a-cloud-access-security-broker-casb/): Explains CASB's role in enhancing cloud security, including its benefits such as threat protection, data loss prevention, and shadow IT management.
+3. [Cloudflare - What is CASB?](https://www.cloudflare.com/learning/cloud/cloud-access-security-broker-casb/): Discusses the four pillars of CASB—visibility, data security, threat protection, and compliance—and explains how CASBs help organizations manage cloud-based risks.
+4. [Fortinet - What is CASB?](https://www.fortinet.com/resources/cyberglossary/casb): Covers the definition of CASB, its evolution, and how it addresses cloud security challenges while integrating with SASE (Secure Access Service Edge) solutions.
+
 ### **CIEM (Cloud Infrastructure Entitlements Management)**
    - **Purpose**: Manages cloud infrastructure entitlements, focusing on controlling who has access to what cloud resources.
    - **Key Use Cases**: Privilege management, enforcing least privilege, identifying excessive permissions, and reducing risk of insider threats in cloud environments.
    - **Relation to CNAPP**: CNAPP may incorporate or work alongside CIEM to ensure cloud-native security is aligned with user access controls and entitlements.
+
+1. [UpGuard - What is Cloud Infrastructure Entitlement Management?](https://www.upguard.com/blog/cloud-infrastructure-entitlement-management): Explains the CIEM lifecycle, addressing the challenges of managing cloud entitlements and enforcing least privilege across multi-cloud environments.
+2. [Bitdefender - CIEM Explained](https://www.bitdefender.com/blog/entry/ciem-explained-managing-cloud-entitlements-in-a-multicloud-world): Provides examples of CIEM usage in preventing security breaches and cloud misconfigurations by enforcing least privilege access.
+3. [CrowdStrike - Cloud Infrastructure Entitlement Management](https://www.crowdstrike.com/blog/cloud-infrastructure-entitlement-management/): Discusses how CIEM improves visibility and control over cloud entitlements, enhances security posture, and ensures compliance across multi-cloud environments.
+4. [BeyondTrust - CIEM in a Multicloud World](https://www.beyondtrust.com/blog/entry/ciem-explained-managing-cloud-entitlements-in-a-multicloud-world): Explains CIEM's role in managing cloud permissions and entitlements, with a focus on least privilege enforcement and security posture improvements.
 
 ### CMSP (Cloud Management and Security Platform)
    - **Purpose:** Provides centralized management of security, compliance, and governance across cloud environments, often incorporating access controls, visibility, and automation.
@@ -32,15 +42,30 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
    - **Limitations:** Primarily focused on infrastructure and compliance, may not provide deep application-level or workload-specific security features.
    - **Relation to CNAPP:** CNAPP focuses on securing cloud-native applications, while CMSP ensures broader security governance and compliance over the entire cloud environment.
 
+1. [Wikipedia - Cloud Management](https://en.wikipedia.org/wiki/Cloud_management): Explains cloud management for hybrid and multi-cloud environments, providing an overview of tools that help manage cloud resources, security, and automation.
+2. [BMC - Cloud Management Platforms Explained](https://www.bmc.com/blogs/cloud-management-platforms-cmp/): Offers an in-depth look at cloud management platforms (CMPs), including their role in governance, lifecycle management, and automation of multi-cloud services.
+3. [Agile IT - CMSPs vs MSPs: What's the Difference?](https://www.agileit.com/news/cloud-managed-service-providers-the-difference-between-msps-csps-mssps-and-cmsps/): Describes the role of Cloud Managed Service Providers (CMSPs) in managing cloud environments and ensuring operational efficiency, scalability, and security.
+4. [IBM - What is Cloud Management?](https://www.ibm.com/cloud/learn/cloud-management): Discusses the importance of cloud management in minimizing security risks and ensuring compliance, while managing multi-cloud infrastructures with centralized tools.
+
 ### **CNSP (Cloud Native Security Platform)**
    - **Purpose**: An overarching term for platforms that provide security tailored to cloud-native applications, typically encompassing elements of CNAPP, CWPP, and CSPM.
    - **Use Cases**: Security and compliance for containerized applications, Kubernetes environments, and microservices architecture.
+
+1. [Palo Alto Networks - What Is a Cloud Native Security Platform?](https://www.paloaltonetworks.com/resources/articles/what-is-cloud-native-security-platform): Explains the evolution of cloud-native security, focusing on the shift from traditional security approaches to unified platforms that provide full-stack security throughout the CI/CD lifecycle.
+2. [Cado Security - Cloud Native Security Platform (CNSP): Guarding Your Cloud Empire](https://www.cadosecurity.com/wiki/cloud-native-security-platform-cnsp-guarding-your-cloud-empire): Describes how CNSP operates by integrating with DevOps and automating security checks, ensuring microsegmentation and protection of cloud-native applications.
+3. [Palo Alto Networks - Core Tenets of a Cloud Native Security Platform](https://www.paloaltonetworks.com/resources/articles/core-tenets-of-a-cloud-native-security-platform): Highlights the essential features of CNSP, such as asset inventory, configuration assessment, network security, and IAM security, providing comprehensive protection for cloud environments.
+4. [Palo Alto Networks - Prisma Cloud 2.0: Why a Comprehensive CNSP is Essential](https://www.paloaltonetworks.com/resources/blog/prisma-cloud-2.0-why-a-comprehensive-cnsp-is-essential): Discusses how Prisma Cloud unifies CNSP features into a single pane of glass, offering multi-cloud protection, compliance monitoring, and vulnerability management.
 
 ### **CSPM (Cloud Security Posture Management)**
    - **Purpose**: Ensures cloud environments (IaaS, PaaS) are securely configured by identifying misconfigurations and compliance gaps.
    - **Limitations**: Focuses primarily on cloud posture without runtime or application security.
    - **Integration with CNAPP**: CNAPP includes CSPM functionality but extends to workload and application protection, creating a continuous security posture management approach.
    - **Key Use Cases**: Compliance monitoring, remediation of misconfigurations, continuous monitoring of cloud resources.
+
+1. [IBM - What is Cloud Security Posture Management?](https://www.ibm.com/cloud/learn/cloud-security-posture-management): Explains how CSPM helps manage security misconfigurations and vulnerabilities in multi-cloud and hybrid cloud environments through continuous monitoring and automated discovery.
+2. [Palo Alto Networks - What is CSPM?](https://www.paloaltonetworks.com/resources/articles/what-is-cspm): Highlights how CSPM tools detect misconfigurations, automate remediation, and offer compliance monitoring, integrating with external platforms for better security management.
+3. [CrowdStrike - Cloud Security Posture Management (CSPM)](https://www.crowdstrike.com/cybersecurity-101/cloud-security-posture-management-cspm/): Discusses how CSPM provides unified visibility across multi-cloud environments, reducing risks and improving security through automated monitoring and alert reduction.
+4. [Cloudflare - What is CSPM?](https://www.cloudflare.com/learning/security/cloud-security-posture-management/): Covers the importance of CSPM in detecting security risks, managing cloud misconfigurations, and improving compliance in cloud infrastructure.
 
 ### **CWEM (Cloud Workload Entitlement Management)**
    - **Purpose**: Focuses on managing access and entitlements specifically for cloud workloads, ensuring that only authorized entities can access or modify workloads.
