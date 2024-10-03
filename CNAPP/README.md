@@ -129,10 +129,18 @@ It seems that there are no widely recognized or distinct sources specifically fo
    - **Key Use Cases:** Protecting against insider threats, enforcing least privilege access, managing elevated access to sensitive systems.  
    - **Relation to CNAPP:** CNAPP may integrate PIM/PAM tools to manage privileged identities and access within cloud-native environments.
 
+1. [Wikipedia - Privileged Access Management](https://en.wikipedia.org/wiki/Privileged_access_management): This page explains the key functions of PAM, including managing, securing, and auditing privileged accounts within an organization.
+2. [Microsoft - What is Privileged Access Management (PAM)?](https://www.microsoft.com/security/blog/2021/08/17/what-is-privileged-access-management-pam/): Covers how PAM solutions protect organizations by managing privileged accounts, implementing least privilege principles, and mitigating risks of credential theft.
+3. [Lepide - PAM vs PIM](https://www.lepide.com/blog/pam-vs-pim-privileged-identity-management-explained/): Highlights the differences between PAM and PIM, explaining how PAM manages access while PIM focuses on the authentication of privileged accounts.
+
 ### SASE (Secure Access Service Edge)
    - **Purpose:** Converges network security services like SD-WAN and VPN with cloud-delivered security services like CASB, SWG, and ZTNA.  
    - **Key Use Cases:** Secure remote access, zero trust network access, unified security for distributed environments.  
    - **Relation to CNAPP:** SASE may complement CNAPP by securing connectivity to cloud-native applications in remote or distributed environments.
+
+1. [Gartner - What is SASE?](https://www.gartner.com/en/information-technology/glossary/secure-access-service-edge-sase): Defines SASE and explains how it converges network security and wide-area networking services to secure remote users, cloud applications, and edge devices.
+2. [Cisco - SASE Explained](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-sase.html): Provides an in-depth look at how SASE integrates security functions like zero trust and cloud-based threat detection, securing remote and distributed workforces.
+3. [Palo Alto Networks - The Future of Secure Access Service Edge (SASE)](https://www.paloaltonetworks.com/sase): Discusses the benefits of SASE, including reducing complexity and improving security visibility in cloud-native environments.
 
 ### **SIEM (Security Information and Event Management)**
    - **Purpose**: Aggregates and analyzes security events across an organization for threat detection, compliance reporting, and log management.
@@ -140,16 +148,29 @@ It seems that there are no widely recognized or distinct sources specifically fo
    - **Integration with CNAPP**: CNAPP can feed cloud-native data into SIEM platforms to provide richer context for cloud-specific threats.
    - **Key Use Cases**: Centralized threat monitoring, incident response, and compliance reporting.
 
+1. [IBM - What is SIEM?](https://www.ibm.com/security/security-information-and-event-management): Explains how SIEM tools collect, analyze, and store security event data from various sources, offering threat detection and incident response capabilities.
+2. [Splunk - What is SIEM?](https://www.splunk.com/en_us/data-insider/what-is-siem.html): Provides an overview of how SIEM works to identify security incidents, and how it integrates with other security tools for comprehensive monitoring and analysis.
+3. [Gartner - SIEM Definition](https://www.gartner.com/en/information-technology/glossary/security-information-and-event-management-siem): A concise definition of SIEM, detailing its core functionalities in log management, real-time analysis, and threat intelligence.
+
 ### SOAR (Security Orchestration, Automation, and Response)
    - **Purpose:** SOAR platforms streamline and automate security operations by integrating multiple tools and workflows, enabling faster incident response and reducing manual effort.
    - **Key Use Cases:** Automating repetitive tasks (e.g., alert triage), incident response, playbook execution, and security operations center (SOC) efficiency improvements.
    - **Limitations:** May require significant setup and integration to work across diverse security tools; effectiveness depends on the quality of pre-built playbooks and automation rules.
    - **Integration with CNAPP:** CNAPP can leverage SOAR's automation and orchestration capabilities to streamline incident response and ensure faster reaction times to cloud-native threats.
 
+1. [Wikipedia - Security Orchestration, Automation, and Response](https://en.wikipedia.org/wiki/Security_orchestration): A detailed overview of how SOAR systems work by integrating tools, automating security tasks, and facilitating incident response in security operations.
+2. [IBM - What is SOAR?](https://www.ibm.com/security/security-orchestration-automation-response): Explains how SOAR combines orchestration, automation, and response to help security teams handle complex incidents more efficiently, reducing response times.
+3. [Microsoft - What is SOAR?](https://www.microsoft.com/security/blog/2022/06/14/what-is-soar/): Describes SOAR's role in automating and orchestrating security tasks to streamline workflows, and highlights its distinction from SIEM.
+4. [Fortinet - SOAR Overview](https://www.fortinet.com/resources/cyberglossary/soar): Provides insight into how SOAR improves efficiency by automating responses to security threats, enabling faster and more effective incident management.
+
 ### UEBA (User and Entity Behavior Analytics)
    - **Purpose:** Uses machine learning and data analytics to detect abnormal behavior of users and entities (devices, applications).  
    - **Key Use Cases:** Insider threat detection, anomalous activity monitoring, identifying compromised accounts.  
    - **Relation to CNAPP:** CNAPP can use UEBA to identify threats in cloud-native environments by analyzing user and application behavior.
+
+1. [CrowdStrike - What is UEBA?](https://www.crowdstrike.com/cybersecurity-101/user-entity-behavior-analytics-ueba/): Explains how UEBA analyzes user and entity behavior to detect anomalies, providing insight into insider threats and compromised accounts.
+2. [Microsoft - UEBA Overview](https://learn.microsoft.com/en-us/azure/sentinel/ueba): Discusses how Microsoft Sentinel uses UEBA to detect insider threats and risky behaviors by monitoring unusual actions across users, devices, and applications.
+3. [Varonis - What is UEBA?](https://www.varonis.com/blog/ueba): An in-depth look at how UEBA models behavior patterns to detect deviations that could indicate security threats such as account compromise or malicious insiders.
 
 ### **WAF (Web Application Firewall)**
    - **Purpose**: Protects web applications by filtering and monitoring HTTP/HTTPS traffic, blocking threats like SQL injections and cross-site scripting (XSS).
@@ -157,11 +178,20 @@ It seems that there are no widely recognized or distinct sources specifically fo
    - **Integration with CNAPP**: CNAPP secures the entire cloud-native environment, complementing WAF by protecting the underlying infrastructure.
    - **Key Use Cases**: Application-layer defense against common web exploits and attacks targeting web applications.
 
+1. [Cloudflare - What is a WAF?](https://www.cloudflare.com/learning/security/glossary/what-is-a-web-application-firewall/): Defines WAF and explains how it protects web applications by filtering and monitoring HTTP traffic to prevent attacks such as SQL injections and cross-site scripting.
+2. [Imperva - Web Application Firewall (WAF)](https://www.imperva.com/learn/application-security/web-application-firewall-waf/): Describes the role of WAFs in securing applications by blocking malicious traffic and ensuring compliance with security policies.
+3. [Akamai - What is a WAF?](https://www.akamai.com/solutions/security/web-application-firewall): Provides an overview of how WAFs protect against various web-based threats, helping organizations safeguard their web applications.
+
 ### **XDR (Extended Detection and Response)**
    - **Purpose**: Expands on EDR by unifying detection and response across multiple layers of security (endpoints, networks, cloud, etc.).
    - **Limitations**: Provides broad visibility but may lack specialized cloud-native threat detection.
    - **Integration with CNAPP**: CNAPP can feed telemetry into XDR platforms, enriching cloud-native visibility within a broader security framework.
    - **Key Use Cases**: Cross-layer threat detection and response, centralized security management, incident response.
+
+1. [Wikipedia - Extended Detection and Response](https://en.wikipedia.org/wiki/Extended_detection_and_response): Describes XDR as an integrated security solution that collects and analyzes data across various layers—endpoint, network, cloud, and more—improving threat detection and response.
+2. [Palo Alto Networks - What is XDR?](https://www.paloaltonetworks.com/cyberpedia/what-is-xdr): Explains how XDR enhances traditional detection and response solutions by correlating data across endpoints, networks, and other layers to provide broader visibility and faster response times.
+3. [IBM - What is XDR?](https://www.ibm.com/security/extended-detection-and-response): Discusses the benefits of XDR, such as improved visibility, faster incident response, and the ability to reduce false positives by correlating data across multiple sources.
+4. [Palo Alto Networks - XDR Security Benefits](https://www.paloaltonetworks.com/network-security/xdr): Highlights XDR's automation, real-time monitoring, and the use of machine learning to detect complex threats and automate incident response.
 
 ### **Zero Trust Architecture (ZTA)**
    - **Purpose**: A security model that assumes no user, system, or application—whether inside or outside the network perimeter—should be trusted by default. It requires verification for every access request, treating every entity as potentially compromised.
@@ -174,6 +204,11 @@ It seems that there are no widely recognized or distinct sources specifically fo
    - **Key Use Cases**: Protecting sensitive data, securing hybrid cloud environments, defending against insider threats, enabling secure remote workforces.
    - **Related Technologies**: Multi-factor authentication (MFA), Identity and Access Management (IAM), Software-defined Perimeter (SDP), and encryption.
 
+1. [NIST - Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final): This document from NIST explains the principles behind Zero Trust, emphasizing continuous verification and minimal access privileges for all resources, users, and services.
+2. [Microsoft - Zero Trust Architecture Overview](https://www.microsoft.com/security/blog/2021/03/16/zero-trust-architecture-and-strategy/): Covers the importance of Zero Trust in modern security, outlining the core principles, such as least-privilege access, verification, and network segmentation.
+3. [IBM - What is Zero Trust Architecture?](https://www.ibm.com/security/zero-trust): Provides a detailed description of ZTA, highlighting how it reduces risks by assuming that no user or device is trusted by default, even within the network.
+4. [Cisco - Zero Trust Security](https://www.cisco.com/c/en/us/solutions/enterprise-networks/zero-trust.html): Offers an overview of Zero Trust, explaining how it helps to protect against both internal and external threats by continuously validating access requests across networks and applications.
+   
 ## CNAPP Vendors
 
 In alphabetical order:
