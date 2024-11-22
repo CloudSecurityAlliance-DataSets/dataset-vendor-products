@@ -125,7 +125,7 @@ CNAPPs aim to provide unified security across multiple cloud environments, ensur
 
 ## CNAPP Vendors
 
-In alphabetical order:
+In (mostly) alphabetical order:
 
 * **Aqua Security**: Aqua Cloud Security: Specializes in securing cloud-native applications by providing container, serverless, and workload security, along with compliance and runtime protection. [Learn more](https://www.aquasec.com/cloud-native-academy/cnapp/what-is-cnapp/)
 
@@ -208,3 +208,17 @@ In alphabetical order:
 * **Wiz**: Wiz Cloud Security Platform: Focuses on visibility and threat detection across multi-cloud environments, with strong capabilities in identifying misconfigurations, vulnerabilities, and risks. [Learn more](https://www.wiz.io/)
 
 * **Zscaler**: Zscaler Posture Control: A cloud security platform focused on automating security posture management and enforcing compliance across multi-cloud environments. [Learn more](https://www.zscaler.com/blogs/product-insights/introducing-posture-control-by-zscaler)
+
+* **AccuKnox**: Offers comprehensive CNAPP solutions with support for VMs, bare metal, 5G, and IoT/Edge environments. [Learn more](https://www.accuknox.com/)
+
+* **Lightspin**: Delivers contextual cloud security, emphasizing risk prioritization and remediation across cloud environments. [Learn more](https://www.lightspin.io/)
+
+* **PingSafe**: Protects multi-cloud environments with components for cloud misconfigurations, container and Kubernetes security, vulnerability management, and serverless security. [Learn more](https://www.pingsafe.ai/)
+
+* **Runecast**: An enterprise CNAPP platform that enables proactive IT operations management, CSPM, and compliance across cloud environments. [Learn more](https://www.runecast.com/)
+
+* **Skyhawk Security**: Secures cloud infrastructure across various domains, utilizing rule-based and machine learning detectors to contextualize threats based on behavioral observations. [Learn more](https://skyhawksecurity.ai/)
+
+* **Upwind**: A CNAPP vendor offering comprehensive cloud security solutions, including threat detection and compliance management. [Learn more](https://www.upwind.io/)
+
+* **VMware**: VMware Tanzu provides a suite of tools for building, running, and managing modern applications on Kubernetes, with integrated security features. [Learn more](https://tanzu.vmware.com/)
