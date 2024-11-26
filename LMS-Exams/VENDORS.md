@@ -1,3 +1,5 @@
+Certainly, here's an updated alphabetical list of exam and assessment platforms, including Caveon and Meazure Learning, along with additional similar providers:
+
 - **ACT**: A nonprofit organization offering educational and workplace assessments, including the ACT college readiness test. [Website](https://www.act.org/)
 
 - **Arco Platform**: A Brazilian education company providing digital solutions for K-12 schools, including learning management and assessment tools. [Website](https://www.arcoplatform.com/)
@@ -69,3 +71,43 @@
 - **ProProfs Exam Maker**: An online tool for creating, administering, and grading exams and quizzes with customizable templates. [Website](https://www.proprofs.com/quiz-school/)
 
 - **Prometric**: Offers technology-enabled testing and assessment solutions for licensure, certification, and educational testing. [Website](https://www.prometric.com/
+
+- **ProctorFree**: An online proctoring solution that ensures exam integrity through automated monitoring and identity verification. [Website](https://www.proctorfree.com/)
+
+- **Proctorio**: A remote proctoring service offering automated supervision and identity verification for online exams. [Website](https://proctorio.com/)
+
+- **Proctortrack**: Provides automated proctoring solutions to maintain academic integrity during online assessments. [Website](https://www.proctortrack.com/)
+
+- **Questionmark**: Offers assessment management solutions for creating, delivering, and reporting on surveys, quizzes, tests, and exams. [Website](https://www.questionmark.com/)
+
+- **Quizizz**: A platform for creating and sharing interactive quizzes and lessons, promoting engagement through gamification. [Website](https://quizizz.com/)
+
+- **Quizlet**: Provides learning tools such as flashcards, games, and quizzes to help students study various subjects. [Website](https://quizlet.com/)
+
+- **Respondus**: Develops assessment tools for learning management systems, including exam creation and proctoring solutions. [Website](https://web.respondus.com/)
+
+- **Saba SBX**: A learning management system offering training and development solutions for businesses and organizations. [Website](https://www.saba.com/products/learning-management)
+
+- **ScootPad**: An adaptive learning platform for K-8 students, providing personalized practice and assessments in various subjects. [Website](https://www.scootpad.com/)
+
+- **Skilljar**: A customer education platform that enables businesses to create and deliver training programs, including assessments and certifications. [Website](https://www.skilljar.com/)
+
+- **Socrative**: A classroom app for creating quizzes and assessments, allowing real-time feedback and engagement. [Website](https://www.socrative.com/)
+
+- **SpeedExam**: An online exam software for creating, administering, and grading exams with various question types. [Website](https://www.speedexam.net/)
+
+- **Surpass Assessment Platform**: Provides comprehensive assessment solutions, including test creation, delivery, and reporting for various sectors. [Website](https://surpass.com/)
+
+- **TestGorilla**: Offers pre-employment testing solutions to help companies hire the best candidates through various assessments. [Website](https://www.testgorilla.com/)
+
+- **TestInvite**: An online assessment platform for creating and administering secure exams with features like proctoring and reporting. [Website](https://testinvite.com/)
+
+- **Trivie**: A learning platform combining gamification and analytics to enhance knowledge retention and employee engagement. [Website](https://trivie.com/)
+
+- **Typeform**: A tool for creating interactive forms, surveys, and quizzes with a focus on user experience and engagement. [Website](https://www.typeform.com/)
+
+- **Wiley**: A global publishing company offering educational materials, including assessment tools and platforms for various subjects. [Website](https://www.wiley.com/)
+
+- **Wizer**: An online platform for creating interactive worksheets and assessments to engage students in learning. [Website](https://wizer.me/)
+
+- **YouTestMe**: Provides online examination software for creating, administering, and proctoring exams with advanced reporting features. [Website](https://www.youtestme.com/)
