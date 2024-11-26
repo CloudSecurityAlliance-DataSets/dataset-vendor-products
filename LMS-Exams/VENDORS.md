@@ -1,5 +1,3 @@
-Certainly, here's an updated alphabetical list of exam and assessment platforms, including Caveon and Meazure Learning, along with additional similar providers:
-
 - **ACT**: A nonprofit organization offering educational and workplace assessments, including the ACT college readiness test. [Website](https://www.act.org/)
 
 - **Arco Platform**: A Brazilian education company providing digital solutions for K-12 schools, including learning management and assessment tools. [Website](https://www.arcoplatform.com/)
