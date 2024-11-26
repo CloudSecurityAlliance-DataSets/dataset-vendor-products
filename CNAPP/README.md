@@ -222,3 +222,5 @@ In (mostly) alphabetical order:
 * **Upwind**: A CNAPP vendor offering comprehensive cloud security solutions, including threat detection and compliance management. [Learn more](https://www.upwind.io/)
 
 * **VMware**: VMware Tanzu provides a suite of tools for building, running, and managing modern applications on Kubernetes, with integrated security features. [Learn more](https://tanzu.vmware.com/)
+
+* **Stream Security **: Stream.Security delivers the only cloud detection and response solution that SecOps teams can trust. Born in the cloud, Stream’s Cloud Twin solution enables real-time cloud threat and exposure modeling to accelerate response in today’s highly dynamic cloud enterprise environments.  [Learn more](https://www.stream.security/)
